@@ -1,5 +1,5 @@
 import Rocketman from "../../assets/rocketman.svg";
-
+import "./style.scss";
 function HeroSection() {
   return (
     <div className="hero-section">
