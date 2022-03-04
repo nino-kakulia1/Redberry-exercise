@@ -1,3 +1,5 @@
+@import "../../style/variables";
+
 .home-page {
   display: flex;
   flex-direction: column;
@@ -11,7 +13,7 @@
   background-size: contain;
 
   &__title {
-    font-family: "Rowdies", cursive;
+    font-family: $font-main;
     padding-top: 175px;
     font-weight: normal;
     margin-bottom: 105px;
@@ -21,7 +23,7 @@
   }
 
   &__button-click {
-    font-family: "Montserrat", sans-serif;
+    font-family: $font-secondary;
     border-radius: 50px;
     width: 395px;
     height: 79px;
@@ -32,7 +34,7 @@
   }
 
   &__subtitle {
-    font-family: "Montserrat", sans-serif;
+    font-family: $font-secondary;
     text-decoration-line: underline;
     font-size: 24px;
     color: #ffffff;
