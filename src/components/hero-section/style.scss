@@ -1,4 +1,4 @@
-.hero-section {
+.home-page {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,11 +6,12 @@
   width: 100%;
   height: 100vh;
   background: url("/assets/stars.svg");
-  background-color: #000000;
+  background-color: #202020;
   background-repeat: no-repeat;
   background-size: contain;
 
   &__title {
+    font-family: "Rowdies", cursive;
     padding-top: 175px;
     font-weight: normal;
     margin-bottom: 105px;
@@ -20,19 +21,25 @@
   }
 
   &__button-click {
+    font-family: "Montserrat", sans-serif;
     border-radius: 50px;
     width: 395px;
     height: 79px;
+    font-size: 24px;
+    margin-bottom: 18px;
     background: #fe3b1f;
     color: #ffffff;
   }
 
   &__subtitle {
+    font-family: "Montserrat", sans-serif;
+    text-decoration-line: underline;
+    font-size: 24px;
     color: #ffffff;
   }
 
   &__image {
-    width: 409.92px;
-    height: 372.45px;
+    width: 409px;
+    height: 372px;
   }
 }
