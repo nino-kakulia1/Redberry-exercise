@@ -3,12 +3,12 @@ import "./style.scss";
 function HeroSection() {
   return (
     <div className="hero-section">
-      <h1>Welcome Rocketeer!</h1>
-      <a className="button-click" href="">
+      <h1 className="hero-section__title">Welcome Rocketeer!</h1>
+      <a className="hero-section__button-click" href="">
         <button>Start Questionnaire</button>
       </a>
-      <div className="hero-section__image">
-        <span>Submitted Applications</span>
+      <div className="hero-section__cover">
+        <span className="hero-section__subtitle">Submitted Applications</span>
         <img src={Rocketman} alt="" />
       </div>
     </div>
