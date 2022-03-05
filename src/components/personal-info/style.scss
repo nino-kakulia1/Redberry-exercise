@@ -21,4 +21,12 @@
     flex-direction: column;
     gap: 37px;
   }
+
+  &__border {
+    padding: 17px 57px;
+    width: 455px;
+    height: 54px;
+    font-size: 14px;
+    border: 1px solid #525557;
+  }
 }
