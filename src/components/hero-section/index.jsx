@@ -6,7 +6,7 @@ function HeroSection() {
     <div className="home-page">
       <h1 className="home-page__title">Welcome Rocketeer!</h1>
 
-      <Link to="personal-infomation">
+      <Link to="personal-info">
         <button className="home-page__button-click">Start Questionnaire</button>
       </Link>
       <a href="" className="home-page__subtitle">
