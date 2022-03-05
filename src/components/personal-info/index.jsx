@@ -1,3 +1,4 @@
+import Left from "../../assets/left.svg";
 import "./style.scss";
 
 function PersonalInfo() {
@@ -27,6 +28,10 @@ function PersonalInfo() {
           className="personal-info__border"
           placeholder="+995 5__ __ __ __"
         />
+      </div>
+
+      <div className="paggination">
+        <img className="paggination__left-slide" src={Left} alt="" />
       </div>
     </div>
   );

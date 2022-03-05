@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Rocketman from "../../assets/rocketman.svg";
 import "./style.scss";
+
 function HeroSection() {
   return (
     <div className="home-page">
