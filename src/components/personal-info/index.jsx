@@ -33,8 +33,8 @@ function PersonalInfo() {
 
       <Pagination />
       <div className="about">
-        <h1 className="description__title">Redberry Origins</h1>
-        <p className="description__description">
+        <h1 className="about__title">Redberry Origins</h1>
+        <p className="about__description">
           You watch “What? Where? When?” Yeah. Our founders used to play it.
           That’s where they got a question about a famous American author and
           screenwriter Ray Bradbury. Albeit, our CEO Gaga Darsalia forgot the
