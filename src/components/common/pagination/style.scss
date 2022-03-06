@@ -1,0 +1,38 @@
+@import "../../../style/variables";
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__left-arrow {
+    margin-right: 18px;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__item {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background-color: $main-color;
+    margin-right: 18px;
+
+    &:nth-child(2) {
+      opacity: 0.1;
+    }
+    &:nth-child(3) {
+      opacity: 0.1;
+    }
+    &:nth-child(4) {
+      opacity: 0.1;
+    }
+    &:nth-child(5) {
+      opacity: 0.1;
+    }
+  }
+}

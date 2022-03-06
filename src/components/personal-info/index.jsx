@@ -1,4 +1,4 @@
-import Left from "../../assets/left.svg";
+import Pagination from "../common/pagination";
 import "./style.scss";
 
 function PersonalInfo() {
@@ -30,9 +30,7 @@ function PersonalInfo() {
         />
       </div>
 
-      <div className="paggination">
-        <img className="paggination__left-slide" src={Left} alt="" />
-      </div>
+      <Pagination />
     </div>
   );
 }
