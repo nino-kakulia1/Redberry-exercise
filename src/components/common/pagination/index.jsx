@@ -1,5 +1,6 @@
 import Left from "../../../assets/left.svg";
 import Right from "../../../assets/right.svg";
+import { Link } from "react-router-dom";
 import "./style.scss";
 
 function Pagination() {
