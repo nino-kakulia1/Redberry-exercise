@@ -3,8 +3,14 @@
 .personal-info {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+
+  &__conteiner {
+    width: 960px;
+    height: 1008px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   &__title {
     width: 716px;
@@ -23,7 +29,7 @@
     margin-bottom: 175px;
   }
 
-  &__border {
+  &__input {
     padding: 17px 57px;
     width: 455px;
     height: 54px;
@@ -33,7 +39,28 @@
 }
 
 .about {
-  width: 939px;
-  height: 100vh;
+  width: 960px;
+  height: 1008px;
+
   background: radial-gradient(50% 50% at 50% 50%, #0c0d0e 0%, #151718 73.44%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    font-family: $font-main;
+    color: $main-color;
+    margin-top: 112px;
+    font-size: 64px;
+    margin-bottom: 83px;
+  }
+
+  &__description {
+    width: 705px;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    line-height: 200%;
+    font-family: $font-secondary;
+    color: $secodary-color;
+  }
 }
