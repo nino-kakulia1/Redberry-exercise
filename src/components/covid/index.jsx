@@ -6,13 +6,18 @@ function Covid() {
       <h1 className="covid__title">Covid Stuff</h1>
       <div className="covid__wrapper">
         <span className="covid__question">how would you prefer to work? </span>
-
-        <input type="radio" value=""></input>
-        <label htmlFor=""> From Sairme Office</label>
-        <input type="radio" value=""></input>
-        <label htmlFor=""> From Home</label>
-        <input type="radio" value=""></input>
-        <label htmlFor=""> Hybrid</label>
+        <div className="covid__radio">
+          <input type="radio" value=""></input>
+          <label htmlFor=""> From Sairme Office</label>
+        </div>
+        <div className="covid__radio">
+          <input type="radio" value=""></input>
+          <label htmlFor=""> From Home</label>
+        </div>
+        <div className="covid__radio">
+          <input type="radio" value=""></input>
+          <label htmlFor=""> Hybrid</label>
+        </div>
       </div>
     </div>
   );

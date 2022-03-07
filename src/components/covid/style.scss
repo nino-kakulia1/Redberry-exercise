@@ -14,8 +14,14 @@
     margin-top: 61px;
   }
 
-  &__question {
+  &__wrapper {
     display: flex;
     flex-direction: column;
+  }
+
+  &__question {
+    font-family: $font-secondary;
+    font-size: 18px;
+    margin-bottom: 8px;
   }
 }
