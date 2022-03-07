@@ -6,11 +6,12 @@ function Covid() {
       <h1>Covid Stuff</h1>
       <div className="covid__question">
         <span>how would you prefer to work? Copy</span>
-        <ul>
-          <li>From Sairme Office</li>
-          <li>From Home</li>
-          <li>Hybrid</li>
-        </ul>
+        <input type="radio" value=""></input>
+        <label htmlFor=""> From Sairme Office</label>
+        <input type="radio" value=""></input>
+        <label htmlFor=""> From Home</label>
+        <input type="radio" value=""></input>
+        <label htmlFor=""> Hybrid</label>
       </div>
     </div>
   );
