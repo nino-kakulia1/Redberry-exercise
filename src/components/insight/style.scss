@@ -1,0 +1,52 @@
+@import "../../style/variables";
+
+.coment {
+  display: flex;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 960px;
+  }
+
+  &__title {
+    font-family: $font-main;
+    font-size: 64px;
+    color: $main-color;
+    margin-bottom: 119px;
+    margin-top: 61px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 51px;
+  }
+
+  &__question {
+    width: 645px;
+    height: 52px;
+    font-family: $font-secondary;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  &__radio {
+    width: 197px;
+    height: 21px;
+    margin-bottom: 18px;
+    margin-right: 7px;
+  }
+
+  &__date {
+    width: 645px;
+    height: 52px;
+  }
+  &__input {
+    padding: 17px 57px;
+    width: 535px;
+    height: 122px;
+    border: 1px solid #525557;
+  }
+}

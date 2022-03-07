@@ -3,6 +3,7 @@ import Home from "./components/home-page";
 import PersonalInfo from "./components/personal-info";
 import Skills from "./components/skills";
 import Insight from "./components/insight";
+import Submit from "./components/submit";
 import Covid from "./components/covid";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/covid" element={<Covid />} />
           <Route path="/insight" element={<Insight />} />
+          <Route path="/submit" element={<Submit />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </BrowserRouter>
