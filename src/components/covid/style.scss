@@ -13,4 +13,9 @@
     margin-bottom: 119px;
     margin-top: 61px;
   }
+
+  &__question {
+    display: flex;
+    flex-direction: column;
+  }
 }
