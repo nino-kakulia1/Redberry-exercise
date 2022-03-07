@@ -3,7 +3,7 @@ import "./style.scss";
 function Covid() {
   return (
     <div className="covid">
-      <h1>Covid Stuff</h1>
+      <h1 className="covid__title">Covid Stuff</h1>
       <div className="covid__question">
         <span>how would you prefer to work? Copy</span>
         <input type="radio" value=""></input>
