@@ -1,0 +1,53 @@
+@import "../../style/variables";
+
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 72px;
+
+  &__content {
+    width: 960px;
+    height: 1008px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-family: $font-main;
+    font-size: 64px;
+    color: $main-color;
+    margin-bottom: 119px;
+  }
+
+  &__conteiner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__input {
+    width: 455px;
+    height: 54px;
+    padding: 17px 57px;
+    margin-bottom: 31px;
+    border: 1px solid #525557;
+  }
+
+  &__languages {
+    margin-left: auto;
+  }
+
+  &__button {
+    width: 201px;
+    height: 32px;
+    font-size: 12px;
+    margin-bottom: 63px;
+    border: none;
+    outline: none;
+    color: $secodary-color;
+    background-color: $main-color;
+    font-family: $font-secondary;
+  }
+}
