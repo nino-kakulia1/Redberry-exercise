@@ -5,6 +5,7 @@ import Skills from "./components/skills";
 import Insight from "./components/insight";
 import Submit from "./components/submit";
 import Covid from "./components/covid";
+import Finish from "./components/finish";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/covid" element={<Covid />} />
           <Route path="/insight" element={<Insight />} />
           <Route path="/submit" element={<Submit />} />
+          <Route path="/finish" element={<Finish />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </BrowserRouter>
