@@ -4,7 +4,7 @@ function Application() {
   return (
     <div className="application">
       <div className="application__info">
-        <span>Personal Information</span>
+        <span className="application__title"> Personal Information</span>
 
         <div className="information">
           <label htmlFor=""> First Name</label>
@@ -30,7 +30,9 @@ function Application() {
         <div className="situation">
           <span>Covid Situation</span>
           <div className="information">
-            <span>how would you prefer to work?</span>
+            <span className="application__title">
+              how would you prefer to work?
+            </span>
             <input type="radio" value="" placeholder=""></input>
             <label htmlFor="">From Sairme Office</label>
           </div>
@@ -41,27 +43,31 @@ function Application() {
             <label htmlFor="">No</label>
           </div>
           <div className="inforation__date">
-            <span>When did you have covid 19?</span>
+            <span className="application__title">
+              When did you have covid 19?
+            </span>
             <input type="" value="" placeholder="02/24/2022"></input>
             <img src="" alt="" />
           </div>
         </div>
         <div className="information">
-          <span>Have you been vaccinated?</span>
+          <span className="application__title">Have you been vaccinated?</span>
           <input type="radio" value="" placeholder=""></input>
           <label htmlFor="">Yes</label>
           <input type="radio" value="" placeholder=""></input>
           <label htmlFor="">No</label>
         </div>
         <div className="inforation__date">
-          <span>When did you get covid vaccine?</span>
+          <span className="application__title">
+            When did you get covid vaccine?
+          </span>
           <input type="" value="" placeholder="02/24/2022"></input>
           <img src="" alt="" />
         </div>
       </div>
 
       <div className="skillset">
-        <span>Skillset</span>
+        <span className="application__title">Skillset</span>
         <div className="information">
           <label htmlFor=""> PHP</label>
           <input type="" value="" placeholder="Years of Experience: 3"></input>
