@@ -17,6 +17,8 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 51px;
+    position: relative;
+    width: 455px;
   }
 
   &__question {
@@ -35,7 +37,6 @@
   }
 
   &__date {
-    width: 645px;
     height: 52px;
   }
   &__input {
@@ -48,5 +49,8 @@
   &__image {
     width: 16px;
     height: 18px;
+    bottom: 16px;
+    right: 18px;
+    position: absolute;
   }
 }

@@ -25,6 +25,7 @@
   &__conteiner {
     display: flex;
     flex-direction: column;
+    position: relative;
   }
 
   &__input {
@@ -33,6 +34,14 @@
     padding: 17px 57px;
     margin-bottom: 31px;
     border: 1px solid #525557;
+  }
+
+  &__image {
+    width: 12.02px;
+    height: 7.42px;
+    position: absolute;
+    right: 21px;
+    top: 25px;
   }
 
   &__languages {

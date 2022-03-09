@@ -14,6 +14,12 @@ function Aplication() {
         <span className="aplication__number">2</span>
         <img src={Vector} alt="" />
       </div>
+      <div className="aplication__table">
+        <span className="aplication__number">3</span>
+        <img src={Vector} alt="" />
+      </div>
+
+      <div className="personal-information"></div>
     </div>
   );
 }

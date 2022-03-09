@@ -1,4 +1,5 @@
 import Pagination from "../common/pagination";
+import Vectorr from "../../assets/vectorr.svg";
 
 import "./style.scss";
 
@@ -9,6 +10,7 @@ function Skills() {
         <h1 className="skills__title">Tell us about your skills</h1>
         <div className="skills__conteiner">
           <input type="text" className="skills__input" placeholder="Skills" />
+          <img className="skills__image" src={Vectorr} alt="" />
           <input
             type="text"
             className="skills__input"
