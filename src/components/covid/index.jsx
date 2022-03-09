@@ -1,7 +1,6 @@
 import Calendar from "../../assets/calendar.svg";
 import About from "../common/about";
 import Pagination from "../common/pagination";
-import Abaut from "../common/about";
 import "./style.scss";
 
 function Covid() {
