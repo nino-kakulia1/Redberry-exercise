@@ -9,9 +9,14 @@ import Finish from "./components/finish";
 import Application from "./components/application";
 
 function App() {
+  console.log(process.env.NODE_ENV);
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter
+        basename={
+          process.env.NODE_ENV === "development" ? "/" : "/redberry-exercise"
+        }
+      >
         <Routes>
           <Route path="/personal-info" element={<PersonalInfo />} />
           <Route path="/skills" element={<Skills />} />
@@ -20,7 +25,7 @@ function App() {
           <Route path="/submit" element={<Submit />} />
           <Route path="/finish" element={<Finish />} />
           <Route path="/application" element={<Application />} />
-          <Route path="/" element={<Home />} />
+          <Route path="/" exact element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>
