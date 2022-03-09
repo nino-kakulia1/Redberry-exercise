@@ -4,36 +4,36 @@ import "./style.scss";
 
 function Insight() {
   return (
-    <div className="coment">
-      <div className="coment__content">
-        <h1 className="coment__title">What about you?</h1>
-        <div className="coment__wrapper">
-          <span className="coment__question">
+    <div className="comment">
+      <div className="comment__content">
+        <h1 className="comment__title">What about you?</h1>
+        <div className="comment__wrapper">
+          <span className="comment__question">
             Would you attend Devtalks and maybe also organize your own?
           </span>
 
-          <div className="coment__radio">
+          <div className="comment__radio">
             <input type="radio" value=""></input>
             <label htmlFor=""> Yes</label>
           </div>
-          <div className="coment__radio">
+          <div className="comment__radio">
             <input type="radio" value=""></input>
             <label htmlFor=""> No</label>
           </div>
         </div>
-        <div className="coment__wrapper">
-          <span className="coment__date">
+        <div className="comment__wrapper">
+          <span className="comment__date">
             What would you speak about at Devtalk?
           </span>
           <input
-            className="coment__input"
+            className="comment__input"
             type="text"
             placeholder="I would..."
           />
         </div>
-        <div className="coment__wrapper">
-          <span className="coment__date">Tell us something special</span>
-          <input className="coment__input" type="text" placeholder="I..." />
+        <div className="comment__wrapper">
+          <span className="comment__date">Tell us something special</span>
+          <input className="comment__input" type="text" placeholder="I..." />
           <Pagination />
         </div>
       </div>
