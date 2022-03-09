@@ -1,12 +1,17 @@
+import { Link } from "react-router-dom";
+
 import "./style.scss";
 
 function Submit() {
   return (
     <div className="submit">
-      <button className="submit__button"> Submit</button>
-      <a className="submit__back" href="">
+      <Link className="submit__button" to="/finish">
+        Submit
+      </Link>
+
+      <Link className="submit__back" to="/insight">
         go back
-      </a>
+      </Link>
     </div>
   );
 }

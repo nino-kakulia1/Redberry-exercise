@@ -18,6 +18,10 @@
     font-family: $font-secondary;
     background-color: $main-color;
     color: $secodary-color;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   &__back {
