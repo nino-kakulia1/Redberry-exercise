@@ -7,7 +7,7 @@ import "./style.scss";
 function PersonalInfo() {
   return (
     <div className="personal-info">
-      <div className="personal-info__conteiner">
+      <div className="personal-info__main">
         <h1 className="personal-info__title">
           Hey, Rocketeer, what are your coordinates?
         </h1>
