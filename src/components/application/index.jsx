@@ -1,9 +1,9 @@
 import "./style.scss";
 
-function Aplication() {
+function Application() {
   return (
-    <div className="aplication">
-      <div className="aplication__info">
+    <div className="application">
+      <div className="application__info">
         <span>Personal Information</span>
 
         <div className="information">
@@ -74,4 +74,4 @@ function Aplication() {
     </div>
   );
 }
-export default Aplication;
+export default Application;

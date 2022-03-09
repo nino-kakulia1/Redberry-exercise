@@ -6,7 +6,7 @@ import Insight from "./components/insight";
 import Submit from "./components/submit";
 import Covid from "./components/covid";
 import Finish from "./components/finish";
-import Aplication from "./components/aplication";
+import Application from "./components/application";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path="/insight" element={<Insight />} />
           <Route path="/submit" element={<Submit />} />
           <Route path="/finish" element={<Finish />} />
-          <Route path="/aplication" element={<Aplication />} />
+          <Route path="/application" element={<Application />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </BrowserRouter>
