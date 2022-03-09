@@ -1,4 +1,12 @@
 @import "../../style/variables";
 .application {
   display: flex;
+
+  &__title {
+    font-size: 18px;
+    font-style: italic;
+    text-decoration-line: underline;
+    line-height: 22px;
+    color: $main-color;
+  }
 }
