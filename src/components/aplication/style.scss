@@ -20,6 +20,15 @@
   &__table {
     width: 1154px;
     height: 52px;
+    padding: 16px 27px;
+    margin-bottom: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background: $main-color;
+  }
+
+  &__number {
+    color: $secodary-color;
   }
 }

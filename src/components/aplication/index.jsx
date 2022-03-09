@@ -7,7 +7,11 @@ function Aplication() {
     <div className="aplication">
       <h1 className="aplication__title">Submitted Applications</h1>
       <div className="aplication__table">
-        <span>1</span>
+        <span className="aplication__number">1</span>
+        <img src={Vector} alt="" />
+      </div>
+      <div className="aplication__table">
+        <span className="aplication__number">2</span>
         <img src={Vector} alt="" />
       </div>
     </div>
