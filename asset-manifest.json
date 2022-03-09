@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/nino-kakulia1/Redberry-exercise/static/css/main.1e69b07b.css",
-    "main.js": "/nino-kakulia1/Redberry-exercise/static/js/main.00be5914.js",
-    "static/js/787.96e68abe.chunk.js": "/nino-kakulia1/Redberry-exercise/static/js/787.96e68abe.chunk.js",
-    "static/media/stars.svg": "/nino-kakulia1/Redberry-exercise/static/media/stars.ecd4753c028b763e9f2b.svg",
-    "static/media/rocketman.svg": "/nino-kakulia1/Redberry-exercise/static/media/rocketman.888183e10e669429ceeff2b1ebb96e3b.svg",
-    "static/media/right.svg": "/nino-kakulia1/Redberry-exercise/static/media/right.9e5c5078eba5c7e83aff11754c4f253d.svg",
-    "static/media/left.svg": "/nino-kakulia1/Redberry-exercise/static/media/left.7c3f64c05d2046a7d95d356186c0552f.svg",
-    "index.html": "/nino-kakulia1/Redberry-exercise/index.html",
-    "static/media/calendar.svg": "/nino-kakulia1/Redberry-exercise/static/media/calendar.db5f7780b6e2a3b881d8edd226ebc549.svg",
-    "static/media/remove.svg": "/nino-kakulia1/Redberry-exercise/static/media/remove.687606cdf8f828130bc864d75d8cbc80.svg",
-    "static/media/vectorr.svg": "/nino-kakulia1/Redberry-exercise/static/media/vectorr.4186298b01aca2d98670e28adbee9649.svg",
-    "main.1e69b07b.css.map": "/nino-kakulia1/Redberry-exercise/static/css/main.1e69b07b.css.map",
-    "main.00be5914.js.map": "/nino-kakulia1/Redberry-exercise/static/js/main.00be5914.js.map",
-    "787.96e68abe.chunk.js.map": "/nino-kakulia1/Redberry-exercise/static/js/787.96e68abe.chunk.js.map"
+    "main.css": "/Redberry-exercise/static/css/main.bef2d5d3.css",
+    "main.js": "/Redberry-exercise/static/js/main.762da2e5.js",
+    "static/js/787.96e68abe.chunk.js": "/Redberry-exercise/static/js/787.96e68abe.chunk.js",
+    "static/media/stars.svg": "/Redberry-exercise/static/media/stars.ecd4753c028b763e9f2b.svg",
+    "static/media/rocketman.svg": "/Redberry-exercise/static/media/rocketman.888183e10e669429ceeff2b1ebb96e3b.svg",
+    "static/media/right.svg": "/Redberry-exercise/static/media/right.9e5c5078eba5c7e83aff11754c4f253d.svg",
+    "static/media/left.svg": "/Redberry-exercise/static/media/left.7c3f64c05d2046a7d95d356186c0552f.svg",
+    "index.html": "/Redberry-exercise/index.html",
+    "static/media/calendar.svg": "/Redberry-exercise/static/media/calendar.db5f7780b6e2a3b881d8edd226ebc549.svg",
+    "static/media/remove.svg": "/Redberry-exercise/static/media/remove.687606cdf8f828130bc864d75d8cbc80.svg",
+    "static/media/vectorr.svg": "/Redberry-exercise/static/media/vectorr.4186298b01aca2d98670e28adbee9649.svg",
+    "main.bef2d5d3.css.map": "/Redberry-exercise/static/css/main.bef2d5d3.css.map",
+    "main.762da2e5.js.map": "/Redberry-exercise/static/js/main.762da2e5.js.map",
+    "787.96e68abe.chunk.js.map": "/Redberry-exercise/static/js/787.96e68abe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e69b07b.css",
-    "static/js/main.00be5914.js"
+    "static/css/main.bef2d5d3.css",
+    "static/js/main.762da2e5.js"
   ]
 }
