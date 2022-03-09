@@ -6,6 +6,6 @@
 * React
 
 ### Used patterns
-* BEM for css class naming
+* BEM (Block, Element, Modifier Methodoloy for class names [DOCS](http://getbem.com/))
 
 [Website](https://nino-kakulia1.github.io/redberry-exercise/)
