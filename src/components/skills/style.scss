@@ -25,6 +25,9 @@
   &__conteiner {
     display: flex;
     flex-direction: column;
+  }
+
+  &__main {
     position: relative;
   }
 
@@ -36,6 +39,20 @@
     border: 1px solid #525557;
   }
 
+  &__experience {
+    position: relative;
+  }
+
+  &__remove {
+    position: absolute;
+    right: 14px;
+    top: 14px;
+  }
+
+  &__remove {
+    width: 20px;
+    height: 20px;
+  }
   &__image {
     width: 12.02px;
     height: 7.42px;
