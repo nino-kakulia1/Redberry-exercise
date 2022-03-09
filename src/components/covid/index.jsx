@@ -7,7 +7,7 @@ import "./style.scss";
 function Covid() {
   return (
     <div className="covid">
-      <div className="covid__conteiner">
+      <div className="covid__container">
         <h1 className="covid__title">Covid Stuff</h1>
         <div className="covid__wrapper">
           <span className="covid__question">
