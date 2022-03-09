@@ -12,7 +12,14 @@
     font-family: $font-main;
     color: $secodary-color;
     margin-top: 94px;
+    margin-bottom: 55px;
     letter-spacing: 0.11em;
     font-size: 56px;
+  }
+
+  &__table {
+    width: 1154px;
+    height: 52px;
+    background: $main-color;
   }
 }
